@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; }
+
+#canvas {
+    background-color:dimgray;
+    position: absolute;
+}
+
+.controls {
+    position: absolute;
+    z-index: 100;
+}
+
+img {
+    display: none;
+}
+
+#warpButton {
+    padding: 10px;
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Rubik Iso', cursive;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: deepskyblue;
+    color: aliceblue;
+    font-weight: 600;
+}
+#warpButton:hover {
+    background-color: aliceblue;
+    color: deepskyblue;
+    cursor: pointer;
+    padding: 12px;
+    margin: 18px;
+}
